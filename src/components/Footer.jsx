@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function Footer() {
     return (
-        <footer className="bg-slate-950 text-white">
+        <footer className="bg-blue-700 text-white">
             <div className="mx-auto grid max-w-7xl grid-cols-1 gap-10 px-6 py-12 sm:grid-cols-2 lg:grid-cols-4 lg:gap-12 lg:px-8">
                 {/* Identidade da loja */}
                 <div className="sm:col-span-2 lg:col-span-1">
@@ -113,7 +113,7 @@ function Footer() {
             </div>
 
             {/* Rodapé inferior */}
-            <div className="border-t border-slate-800">
+            <div className="border-t bg-blue-700">
                 <div className="mx-auto flex max-w-7xl flex-col items-center gap-3 px-6 py-5 text-center sm:flex-row sm:justify-between sm:px-8 sm:text-left">
                     <p className="text-xs text-slate-400">
                         © {new Date().getFullYear()} Loja Esportes.
