@@ -29,7 +29,7 @@ const Produtos = () => {
     ]
 
     return (
-        <main className="min-h-screen bg-white font-sans antialiased">
+        <main className="min-h-screen bg-orange-100 font-sans antialiased">
 
             {/* CATEGORIAS */}
             <section className="mx-auto max-w-6xl px-6 py-16">
