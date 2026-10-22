@@ -1,13 +1,27 @@
 
+import { Link, NavLink } from "react-router-dom";
+
 function Navbar() {
     return (
         <header>
             <nav>
-                {/* Logo da loja */}
+                {/* Logo */}
+                <Link to="/">
+                    Loja <span>Esportes</span>
+                </Link>
 
-                {/* Links de navegação */}
-
-                {/* Área de ações */}
+                {/* Navegação */}
+                <ul>
+                    <li>
+                        <NavLink to="/">Home</NavLink>
+                    </li>
+                    <li>
+                        <NavLink to="/produtos">Nossos produtos</NavLink>
+                    </li>
+                    <li>
+                        <NavLink to="/contato">Contato</NavLink>
+                    </li>
+                </ul>
             </nav>
         </header>
     );
