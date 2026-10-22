@@ -38,12 +38,12 @@ const Card = () => {
                           Mais vendidos ⭐
                       </h2>
 
-                      <p className="mt-2 text-white">
+                      <p className="mt-2 text-black">
                           Os favoritos de quem ama esporte!
                       </p>
                   </div>
 
-                  <button className="self-start rounded-full border-2 border-white px-5 py-2 font-semibold text-white transition hover:bg-orange-600 hover:text-white sm:self-auto">
+                  <button className="self-start rounded-full border-2 border-black px-5 py-2 font-semibold text-black transition hover:bg-orange-600 hover:text-black sm:self-auto">
                       Ver todos →
                   </button>
               </div>

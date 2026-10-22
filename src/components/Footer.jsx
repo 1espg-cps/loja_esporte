@@ -40,7 +40,7 @@ function Footer() {
                                 to="/produtos"
                                 className="transition-colors hover:text-white"
                             >
-                                Corrida
+                                Basquete
                             </Link>
                         </li>
                         <li>
@@ -48,7 +48,7 @@ function Footer() {
                                 to="/produtos"
                                 className="transition-colors hover:text-white"
                             >
-                                Academia
+                                E-sports
                             </Link>
                         </li>
                     </ul>
