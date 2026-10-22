@@ -1,17 +1,11 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./pages/Home";
-import Contato from "./pages/Contato";
-
-function App() {
+import React from 'react'
+import { BrowserRouter as Router,Routes,Route } from "react-router-dom"
+const App = () => {
   return (
-    <Router>
-      {/* Navbar dps*/}
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/contato" element={<Contato />} />
-      </Routes>
-    </Router>
-  );
+    <>
+      
+    </>
+  )
 }
 
-export default App;
+export default App
