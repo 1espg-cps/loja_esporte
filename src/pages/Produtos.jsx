@@ -29,7 +29,7 @@ const Produtos = () => {
     ]
 
     return (
-        <main className="min-h-screen bg-black font-sans antialiased">
+        <main className="min-h-screen bg-white font-sans antialiased">
 
             {/* CATEGORIAS */}
             <section className="mx-auto max-w-6xl px-6 py-16">
@@ -42,7 +42,7 @@ const Produtos = () => {
                         Encontre sua vestimenta favorita! 👕
                     </h2>
 
-                    <p className="mt-3 text-white">
+                    <p className="mt-3 text-black">
                         Escolha uma categoria e comece a diversão!
                     </p>
                 </div>
@@ -69,7 +69,6 @@ const Produtos = () => {
                 </div>
             </section>
             <Card/>
-            <Footer/>
         </main>
     )
 }
