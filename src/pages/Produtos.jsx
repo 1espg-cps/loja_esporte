@@ -1,5 +1,6 @@
 import React from 'react'
 import Card from '../components/Card'
+import Footer from '../components/Footer'
 
 const Produtos = () => {
 
@@ -28,7 +29,7 @@ const Produtos = () => {
     ]
 
     return (
-        <main className="min-h-screen bg-blue-950 font-sans antialiased">
+        <main className="min-h-screen bg-black font-sans antialiased">
 
             {/* CATEGORIAS */}
             <section className="mx-auto max-w-6xl px-6 py-16">
@@ -68,6 +69,7 @@ const Produtos = () => {
                 </div>
             </section>
             <Card/>
+            <Footer/>
         </main>
     )
 }
